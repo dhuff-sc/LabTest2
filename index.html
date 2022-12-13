@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <meta name="author" content="Daniel Huff">
+    <meta name="description" content="HTML webpage project for CSD112 at Sault College">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2PartB</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .new {
+        font-weight: bold;
+        font-style: italic;
+      }
+      .bg-image {
+        background-image: url("images/sc-logo.png");
+        background-repeat: repeat-y;
+        position: left;
+      }
+
+    </style>
+
+</head>
+
+<body class="bg-image">
+
+    <div class="width-wrap">
+        <header id="top">
+            <nav>
+            </nav>
+        </header>
+        <main>
+            <h1>CSD112: Lab 2 Part B</h1>
+            <p style="font-weight: bold; font-style: italic;">This is inline style bold and italic text.</p>
+            <p class="new">This is embedded style bold and italic text</p>
+            <p id="new">This is external style bold and italic text</p>
+            <img class="image" src="images/Sault-College.jpg" alt="Photo of Sault College" height="600" width="800">
+            <a href="https://orteil.dashnet.org/cookieclicker/"><img src="images/cookie.png" height="300" width="300"></a>
+            <table style="margin-left: 80px;">
+                <caption></caption>
+                <thead>
+                  <tr>
+                    <th colspan="2">Phone Directory</th>
+                  </tr>
+                  <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Name 1</td>
+                    <td>(705)-555-1234</td>
+                  </tr>
+                  <tr>
+                    <td>Name 2</td>
+                    <td>(705)-555-4321</td>
+                  </tr>
+                  <tr>
+                    <td>Name 3</td>
+                    <td>(705)-555-1324</td>
+                  </tr>
+                </tbody>
+                </table>
+        </main>
+        <footer>
+            <hr>
+            <blockquote>"Battle not with monsters, lest ye become a monster, and if you gaze into the abyss, the abyss
+                gazes also into you."</blockquote>
+            <cite>&mdash; <span class="author">Friedrich Nietzsche</span></cite>
+            <!--Found me!-->
+            <p>&copy; 2022 <a href="mailto:21101634@saultcollege.ca?subject=Message%20from%20CSD112%20Website">Daniel
+                    Huff</a></p>
+            <picture>
+                <source srcset="images/sc-logo.svg" media="(min-width:70px)">
+                <img src="images/sc-logo.png" alt="Sault College logo" width="70"
+                    srcset="images/sc-logo.png, images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x">
+            </picture>
+        </footer>
+        <a href="#top">◤Back to top</a>
+    </div>
+
+</body>
+
+</html>

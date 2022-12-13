@@ -1,0 +1,16 @@
+#new {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+.image {
+    box-shadow: 2px 2px 5px black;
+    border-radius: 25px;
+}
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
